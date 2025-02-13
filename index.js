@@ -1,7 +1,22 @@
 const products = [
-  { id: 1, name: "Product 1", desc: "Description of the product 1 Description of the product 1", price: 25 },
-  { id: 2, name: "Product 2", desc: "Description of the product 2 Description of the product 1", price: 45 },
-  { id: 3, name: "Product 3", desc: "Description of the product 3 Description of the product 1", price: 30 },
+  {
+    id: 1,
+    name: "Product 1",
+    desc: "Description of the product 1 Description of the product 1",
+    price: 25,
+  },
+  {
+    id: 2,
+    name: "Product 2",
+    desc: "Description of the product 2 Description of the product 1",
+    price: 45,
+  },
+  {
+    id: 3,
+    name: "Product 3",
+    desc: "Description of the product 3 Description of the product 1",
+    price: 30,
+  },
 ];
 const cart = {};
 
@@ -70,7 +85,7 @@ const showProducts = () => {
 
 const displayCart = () => {
   //   divcartblock.style.display = "block";
-  divcartblock.style.left = "60%";
+  divcartblock.style.left = "80%";
 };
 const hidecart = () => {
   //   divcartblock.style.display = "none";
